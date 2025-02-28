@@ -1,8 +1,8 @@
 # เปิดการประมวลผลไฟล์ PHP
-AddType application/x-httpd-php .php .html .htm
+AddType application/x-httpd-php .php
 
 # ให้ Apache ใช้ PHP ประมวลผลไฟล์ .php
-AddHandler application/x-httpd-php .php .html .htm
+AddHandler application/x-httpd-php .php
 
 # เปิดใช้งานการแสดงข้อผิดพลาด PHP
 php_flag display_errors on
